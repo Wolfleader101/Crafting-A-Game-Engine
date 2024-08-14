@@ -48,7 +48,7 @@ int main(void)
             ball.position.x = ball.radius;
 
             // invert and reduce velocity by 40%
-            ball.velocity.x *= -0.4f;
+            ball.velocity.x *= -0.6f;
         }
 
         if (ball.position.y >= GetScreenHeight() - ball.radius)
